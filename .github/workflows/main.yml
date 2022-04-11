@@ -1,4 +1,4 @@
-name: French Elections scrape
+name: FrenchElectionsScrape
 
 # Controls when the action will run.
 on:
