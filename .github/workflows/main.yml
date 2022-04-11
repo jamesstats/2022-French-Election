@@ -3,7 +3,7 @@ name: French Elections scrape
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '0 13 * * *'
+    - cron:  '*/5 * * * *
 
 
 jobs: 
