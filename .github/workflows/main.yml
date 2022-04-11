@@ -3,8 +3,8 @@ name: results
 
 # Controls when the action will run.
 on:
-  schedule:
-    - cron:  '0 13 * * *'
+  push:
+    branches: main
 
 
 jobs: 
