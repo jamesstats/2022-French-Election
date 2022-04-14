@@ -1,7 +1,6 @@
 library(tidyverse)
 library(rvest)
 library(janitor) 
-library(ggplot2)
 
 url <-  "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2022_French_presidential_election#Macron_vs._Le_Pen"
 url_html <-read_html(url)
