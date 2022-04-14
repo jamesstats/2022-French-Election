@@ -4,9 +4,7 @@ name: Macron vs Le Pen
 # Controls when the action will run.
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ] 
+    branches: main 
   
 
 
@@ -36,8 +34,8 @@ jobs:
         git config --local user.name github-actions
         git config --local user.email "actions@github.com"
         git add data/*
-        git commit -am "GH ACTION Headlines $(date)"
-        git push main
+        git commit -am "Automation $(date)"
+        git push origin main
       env:
         REPO_KEY: ${{secrets.GITHUB_TOKEN}}
         username: github-actions
