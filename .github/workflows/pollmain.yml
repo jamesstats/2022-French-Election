@@ -5,6 +5,8 @@ name: Macron vs Le Pen
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ] 
   
 
 
@@ -35,7 +37,7 @@ jobs:
         git config --local user.email "actions@github.com"
         git add data/*
         git commit -am "GH ACTION Headlines $(date)"
-        git push origin main
+        git push main
       env:
         REPO_KEY: ${{secrets.GITHUB_TOKEN}}
         username: github-actions
