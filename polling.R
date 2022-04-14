@@ -10,4 +10,4 @@ results<-url_tables[[9]]
 male<-results[-c(2),]
 male<-male[-c(1),]
 colnames(male)<-c('Pollingfirm','FieldWorkDate','SampleSize','Abs','MacronLREM','LePenNR')
-write_csv(results,paste0('data/',Sys.Date(),'_macron_lePen','.csv'))    
+write_csv(results,paste0('data/',Sys.Date(),'_Macron_LePen','.csv'))    
