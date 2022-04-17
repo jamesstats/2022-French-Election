@@ -6,12 +6,11 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches:  main 
-  pull_request:
-    branches:  main 
+    branches: main  
 
-  jobs:
-  autoscrape:
+jobs:  
+  
+  autoscrape:   
     runs-on: macos-latest
     steps:
     - name: Check out this repo
@@ -26,4 +25,4 @@ on:
         git add -A
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
-        git push
+        git push origin main
