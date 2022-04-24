@@ -9,5 +9,5 @@ MaLe_22<-sec_rl_tab[[2]]
 MaLe_22%>%
   clean_names('parsed')->MaLe_22
   
-write_csv(MaLe22,paste0('data/',Sys.Date(),'_second_round','.csv'))   
+write_csv(MaLe_22,paste0('data/',Sys.Date(),'_second_round','.csv'))   
   
