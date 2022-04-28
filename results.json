@@ -484,8 +484,8 @@
     "decisional": true,
     "votes": [
       {
-        "percent": 30.56,
-        "votes": 6717,
+        "percent": 30.57,
+        "votes": 6719,
         "name": "Marine LE PEN"
       },
       {
@@ -529,17 +529,17 @@
   },
   "20065": {
     "insee": "20065",
-    "decisional": true,
+    "decisional": false,
     "votes": [
       {
-        "percent": 25.96,
-        "votes": 148,
-        "name": "Marine LE PEN"
+        "percent": 0,
+        "votes": 0,
+        "name": "Fabien ROUSSEL"
       },
       {
-        "percent": 15.96,
-        "votes": 91,
-        "name": "Emmanuel MACRON"
+        "percent": 0,
+        "votes": 0,
+        "name": "Anne HIDALGO"
       }
     ]
   },
